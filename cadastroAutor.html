@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastrar Livros</title>
+        <style>
+            button {
+                font-size: 20px;
+                margin-bottom: 15px;
+                margin-top: 15px;
+                border-radius: 10px;
+                background-color: rgb(75, 134, 230);
+                width: 150px;
+                height: 45px;
+            }
+
+            h1{
+                font-size: 50px;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                padding-bottom: 240px;
+            }
+
+            body{
+                align-items: center;
+                background-color: rgb(184, 188, 205);
+            }
+
+            #forms{
+                align-items: center;
+                text-align: center;
+                font-size: 35px;
+            }
+
+            input{
+                width: 280px;
+                height: 25px;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Cadastrar Livro</h1>
+
+        <div id="forms">
+            <form>
+                Nome: <input type="text" placeholder="Insira o nome do livro" name="nomeLivro" required><br>
+                Autor: <input type="text" placeholder="Insira o nome do autor" name="nomeAutor" required><br>
+                Nº de páginas: <input type="number" placeholder="Insira o número de páginas" name="numPaginas"><br>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </body>
+</html>
