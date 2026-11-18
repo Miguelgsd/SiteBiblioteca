@@ -26,7 +26,7 @@ Site para cadastro e consulta de livros e autores, feito em PHP puro com MariaDB
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/<seu-usuario>/SiteBiblioteca.git
+   git clone https://github.com/Miguelgsd/SiteBiblioteca.git
    cd SiteBiblioteca
    ```
 
